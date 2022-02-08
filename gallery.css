@@ -1,0 +1,23 @@
+.outerbox{
+    border: black 3px solid; 
+    padding: 10px;
+    background-color: white;
+}
+.innerbox{
+    border: black 2px solid;
+    box-shadow: black 5px 5px 5px;
+    font-family: cursive;
+    text-align: center;
+    padding: 5px;
+    text-indent: 5%;
+    text-shadow: gray 5px 5px 5px;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+.carousel .carousel-item{
+    height: 650px;
+    width: 1500px;
+    padding: 10px;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Address & Contact Details</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel='stylesheet' href="contact us.css">
+    <script src="contact us.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="Images/contact us.jpg" class="imageLeft">
+                <div class="textLeft">
+                    <div>
+                        <h2>Address</h2>
+                        <p>Mada Center 8th floor, 379 Hudson St,
+                            <br>
+                            Pune
+                        </p>    
+                    </div>
+
+                    <br><br>
+
+                    <div>
+                        <h2>Let's Talk</h2>
+                        <p>9876543210</p>    
+                    </div>
+
+                    <br><br>
+
+                    <div>
+                        <h2>Email</h2>
+                        <p>contact@example.com</p>    
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <br>
+                <center>
+                    <h1>Send Us A Message</h1>
+                </center>
+
+                <br><br>
+
+                <form class="needs-validation">
+                    <div class="form-group">
+                        <label form="name">Tell us your Name : </label>
+                        <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+                        <div class="valid-feedback">Valid</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+        
+                    <br>
+
+                    <div class="form-group">
+                        <label for="email">Enter your Email Address : </label>
+                        <input type="email" class="form-control" id="email" placeholder="Email" required>
+                        <div class="valid-feedback">Valid</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+        
+                    <br>
+
+                    <div class="form-group">
+                        <label for="number">Enter your Mobile Number : </label>
+                        <input type="number" class="form-control" id="mobnum" placeholder="Mobile Number" required>
+                        <div class="valid-feedback">Valid</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+
+                    <br>
+
+                    <div class="form-group">
+                        <label form="comment">Message : </label>
+                        <textarea class="form-control" rows="5" cols="30" id="comment"></textarea>
+                        <div class="valid-feedback">Valid</div>
+                        <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+
+                    <br>
+
+                    <center>
+                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">Send Message</button>
+                    </center>
+
+                    <div class="modal" id="myModal">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content">
+            
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Thank you for contacing us!!</h4>
+                                </div>
+            
+                                <div class="modal-body">
+                                    <p>We will connect to you shortly!!!</p>
+                                    <p>Do visit us again...</p>
+                                </div>
+            
+                                <div class="modal-footer">
+                                    <button type="button" id="close" class="btn btn-info" data-dismiss="modal" onclick="goback()">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
